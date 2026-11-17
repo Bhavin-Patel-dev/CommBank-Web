@@ -1,4 +1,5 @@
 import { BaseEmoji, Picker } from 'emoji-mart'
+// @ts-ignore emoji-mart does not provide a declaration for its CSS import.
 import 'emoji-mart/css/emoji-mart.css'
 import { useAppSelector } from '../../store/hooks'
 import { selectMode } from '../../store/themeSlice'
